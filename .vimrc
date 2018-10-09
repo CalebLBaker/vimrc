@@ -1,3 +1,4 @@
+set mouse=a
 set tabstop=4
 set shiftwidth=4
 filetype indent on
@@ -8,6 +9,7 @@ set number relativenumber
 autocmd InsertEnter * :set norelativenumber
 autocmd InsertLeave * :set relativenumber
 syntax enable
+
 imap , ,<space>
 imap <C-l> ->
 nmap <C-j> :m+<CR>
