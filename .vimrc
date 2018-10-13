@@ -15,9 +15,9 @@ imap <C-l> ->
 nmap <C-j> :m+<CR>
 nmap <C-k> :m-2<CR>
 
-nmap <C-b> :!make<return>
-nmap <C-c> :!make clean<return>
-nmap <C-l> :!make run<return>
+nmap <C-b> :w<return>:!make<return>
+nmap <C-c> :w<return>:!make clean<return>
+nmap <C-l> :w<return>:!make run<return>
 
 set foldmethod=indent
 set nofoldenable
